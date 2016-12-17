@@ -5,8 +5,7 @@
   下载指定新浪微博用户的相册的所有图片到本地。
 
 ## 使用方法
-1. 打开需要下载的用户主页，在网址或页面文档中找到用户唯一id。
-      支持3种ID，比如黄晓明的ID可以为huangxiaoming（个性域名）、1730077315（用户标识oid）、1006051730077315（相册标识page_id）。
+1. 打开需要下载的用户主页，在网址或页面文档中找到用户唯一id。支持3种ID，比如黄晓明的ID可以为huangxiaoming（个性域名）、1730077315（用户标识oid）、1006051730077315（相册标识page_id）。
 2. 利用chrome开发者工具或其他抓包工具，或者运行语句```document.cookie```来获取cookie值。
 3. 编辑weibo-photo-downloader.py文件，在初始参数中，修改uid和cookie的值为第一步获取的用户id和第二步获取的cookie。
 4. 运行weibo-photo-downloader.py文件。
