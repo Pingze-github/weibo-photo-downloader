@@ -193,6 +193,7 @@ def re_search(pattern, text):
         return ''
 
 def main():
+    creeper.cmkdir("./images")
     url1 = 'http://www.weibo.com/u/' + uid
     url2 = 'http://www.weibo.com/p/' + uid
     url3 = 'http://www.weibo.com/' + uid
